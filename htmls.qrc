@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>html/images/oak.jpg</file>
+        <file>html/images/oak_leaf.jpg</file>
+        <file>html/images/bereza_leaf.jpg</file>
+        <file>html/oak.html</file>
+        <file>html/images/bereza.jpg</file>
+        <file>html/bereza.html</file>
+        <file>html/images/willow.jpg</file>
+        <file>html/images/willow_leaf.jpg</file>
+        <file>html/willow.html</file>
+        <file>html/elm.html</file>
+        <file>html/images/elm.jpg</file>
+        <file>html/images/elm_leaf.jpg</file>
+        <file>html/maple.html</file>
+        <file>html/images/maple.jpg</file>
+        <file>html/images/maple_leaf.jpg</file>
+        <file>mobile-hand-phone.png</file>
+    </qresource>
+</RCC>

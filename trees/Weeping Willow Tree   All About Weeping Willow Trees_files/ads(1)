@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CAir1psK2UZqOCIajsQaqxoG4DY7O7dwDprLAqx_AjbcBEAEghPj1ASgDUKmF_IP______wFgjwPIAQGoAwGqBIoBT9DuWyOtQ1Wnb-bsanVW0l9BoStva1WriwsEMpx4z6KK4Hcs2D3oS1tqlo0p4sEsqEZo60b5OV_nOVzeWuGbhI4IGrfabkTJMuWDRNObscFxp3duQIKpZxLBevmq4lAQB_92GPsUAn1wYG3DYmHCn4gI3Bczno5JC2vTjqTUrgS5zAAEO2vGo8-ngAeqv-MC&amp;num=1&amp;sig=AOD64_0xLujS85GKwvEPz11ttRh9kzImWQ&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.pbgolfhomes.com"; 
+google_ad.visible_url = "www.pbgolfhomes.com"; 
+google_ad.line1 = "Palm Beach Golf Homes"; 
+google_ad.line2 = "Search 41 Private Country Clubs for"; 
+google_ad.line3 = "Homes in Palm Beach County Florida"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=C_kAVpsK2UZqOCIajsQaqxoG4DZXBi78FzbDQvm_AjbcBEAIghPj1ASgDUOTFz4L7_____wFgjwOgAavkjdMDyAEBqQKGqKPbQju2PqgDAaoEigFP0K4TLK1AVadv5uxqdVbSX0GhK29rVauLCwQynHjPoorgdyzYPehLW2qWjSniwSyoRmjrRvk5X-c5XN5a4ZuEjggat9puRMky5YNE05uxwXGnd25AgqlnEsF6-ariUBAMhUwJ-xQCfXBgbcNiYcKfiAjcFzOejkkLa9OOpNSuBLnMAAQ7a_nWjY6AB72b8iw&amp;num=2&amp;sig=AOD64_3Pl3bRVtGKt5AfQE0YZO8x_hD2zw&amp;client=ca-pub-3619764495662405&amp;adurl=http://pixel.everesttech.net/2724/c%3Fev_sid%3D3%26ev_cmpid%3D%26ev_ln%3Dikea%26ev_crx%3D29932490381%26ev_mt%3D%26ev_n%3Dd%26ev_ltx%3D%26ev_pl%3Dwww.2020site.org%26ev_pos%3Dnone%26url%3Dhttp%253A//www.lamoda.kz/shoes/women/%253Fsf%253D9%2526wt_ga05%253D5963108994_29932490381%2526wt_gk05%253DBroad_5963108994_ikea"; 
+google_ad.visible_url = "lamoda.kz"; 
+google_ad.line1 = "\x26#1052;\x26#1086;\x26#1076;\x26#1085;\x26#1072;\x26#1103; \x26#1054;\x26#1073;\x26#1091;\x26#1074;\x26#1100; \x26#1074; 3 \x26#1088;\x26#1072;\x26#1079;\x26#1072; \x26#1076;\x26#1077;\x26#1096;\x26#1077;\x26#1074;\x26#1083;\x26#1077;."; 
+google_ad.line2 = "\x26#1051;\x26#1080;\x26#1082;\x26#1074;\x26#1080;\x26#1076;\x26#1072;\x26#1094;\x26#1080;\x26#1103; \x26#1041;\x26#1088;\x26#1077;\x26#1085;\x26#1076;\x26#1086;\x26#1074;\x26#1086;\x26#1081; \x26#1054;\x26#1073;\x26#1091;\x26#1074;\x26#1080;. -70% -80%!"; 
+google_ad.line3 = "\x26#1041;\x26#1077;\x26#1089;\x26#1087;\x26#1083;\x26#1072;\x26#1090;\x26#1085;\x26#1072;\x26#1103; \x26#1076;\x26#1086;\x26#1089;\x26#1090;\x26#1072;\x26#1074;\x26#1082;\x26#1072; \x26#1087;\x26#1086; \x26#1050;\x26#1072;\x26#1079;\x26#1072;\x26#1093;\x26#1089;\x26#1090;\x26#1072;\x26#1085;\x26#1091;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CPLl6psK2UZqOCIajsQaqxoG4DfvegwfP2NmXAcCNtwEQAyCE-PUBKANQwY6SlQFgjwPIAQGoAwGqBIYBT9Duai6tQVWnb-bsanVW0l9BoStva1WriwsEMpx4z6KK4Hcs2D3oS1tqlo0p4sEsqEZo60b5OV_nOVzeWuGbhI4IGrfabkTJMuWDRNObscFxp3duQIKpZxLBerGqcjTRy9GPpRH_jKqfi7vqYmGsgohIKRT3a42N_mjDe6fE2we9rAatNhmAB6GwtQE&amp;num=3&amp;sig=AOD64_2ucb1lglqUiun2uxmh_y6OjD8j0A&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.treeradar.com/index.htm"; 
+google_ad.visible_url = "www.treeradar.com"; 
+google_ad.line1 = "Tree Risk Assessment"; 
+google_ad.line2 = "Detect Internal Decay and Identify"; 
+google_ad.line3 = "Hazard Trees Before Damage Occurs"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.2020site.org/trees/weepingwillow.html%26gl%3DKZ%26hl%3Den%26client%3Dca-pub-3619764495662405%26ai0%3DCAir1psK2UZqOCIajsQaqxoG4DY7O7dwDprLAqx_AjbcBEAEghPj1ASgDUKmF_IP______wFgjwPIAQGoAwGqBIoBT9DuWyOtQ1Wnb-bsanVW0l9BoStva1WriwsEMpx4z6KK4Hcs2D3oS1tqlo0p4sEsqEZo60b5OV_nOVzeWuGbhI4IGrfabkTJMuWDRNObscFxp3duQIKpZxLBevmq4lAQB_92GPsUAn1wYG3DYmHCn4gI3Bczno5JC2vTjqTUrgS5zAAEO2vGo8-ngAeqv-MC%26ai1%3DC_kAVpsK2UZqOCIajsQaqxoG4DZXBi78FzbDQvm_AjbcBEAIghPj1ASgDUOTFz4L7_____wFgjwOgAavkjdMDyAEBqQKGqKPbQju2PqgDAaoEigFP0K4TLK1AVadv5uxqdVbSX0GhK29rVauLCwQynHjPoorgdyzYPehLW2qWjSniwSyoRmjrRvk5X-c5XN5a4ZuEjggat9puRMky5YNE05uxwXGnd25AgqlnEsF6-ariUBAMhUwJ-xQCfXBgbcNiYcKfiAjcFzOejkkLa9OOpNSuBLnMAAQ7a_nWjY6AB72b8iw%26ai2%3DCPLl6psK2UZqOCIajsQaqxoG4DfvegwfP2NmXAcCNtwEQAyCE-PUBKANQwY6SlQFgjwPIAQGoAwGqBIYBT9Duai6tQVWnb-bsanVW0l9BoStva1WriwsEMpx4z6KK4Hcs2D3oS1tqlo0p4sEsqEZo60b5OV_nOVzeWuGbhI4IGrfabkTJMuWDRNObscFxp3duQIKpZxLBerGqcjTRy9GPpRH_jKqfi7vqYmGsgohIKRT3a42N_mjDe6fE2we9rAatNhmAB6GwtQE\x26usg\x3dAFQjCNGD-QrmikBiY6nTDz5sTucTvfeuBw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

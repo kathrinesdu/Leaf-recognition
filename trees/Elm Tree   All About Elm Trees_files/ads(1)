@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CJ12gH8O2Uf6DJIy4sQbA9ICACMbhyt8D7r_p913AjbcBEAEghPj1ASgDUPL9ofL5_____wFgjwOgAZLI99sDyAEBqQIImZOh-uGFPqgDAaoEe0_Q4Hxk2D7ikG26gmgiv4v9I_WUrJU4MRwW4NsDqhZGo6WgQRzrDm5c2h3BdkvofP8Eabf72vIQKodJU7X4wUn_4sU5pu-1JDQdg82ScPQItIny4-2nkeWYQSvE5ZufLrafgsT3o8p6fTphs4EsajtIHvGVqapLgLYfbYgGAYAH1reIJA&amp;num=1&amp;cid=5GjA_ONZSDaMYthVuaLSkc0N&amp;sig=AOD64_0OFzwXWET7rIeOiyWOR7DgL64KLQ&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.luxeplank.com/product.html"; 
+google_ad.visible_url = "www.luxeplank.com/"; 
+google_ad.line1 = "Golden Burg"; 
+google_ad.line2 = "Manufacturer of laminated floor"; 
+google_ad.line3 = "with Competitive price \x26amp; ISO14001"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CCjMeH8O2Uf6DJIy4sQbA9ICACKahm-sBzq3WlVbAjbcBEAIghPj1ASgDUN6Wvc_6_____wFgjwOgAYK_tf0DyAEBqAMBqgR-T9DAdnjYPeKQbbqCaCK_i_0j9ZSslTgxHBbg2wOqFkajpaBBHOsOblzaHcF2S-h8_wRpt_va8hAqh0lTtfjBSf_ixTmm77UkNB2DzZJw9Ai0wfJ8yQsJ4Vz9wS9rdnLFWk9tMiGkP3m5z2J3dC96zksOBJatSk1CkerJD84aiAYBgAfmwMoC&amp;num=2&amp;cid=5GjA_ONZSDaMYthVuaLSkc0N&amp;sig=AOD64_1chnrICfmLyYWKv8fWkmE-BR2wwg&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.daniweb.com/software-development/cpp/8"; 
+google_ad.visible_url = "www.daniweb.com"; 
+google_ad.line1 = "Answers to C++ Questions"; 
+google_ad.line2 = "Free Answers to Your Programming"; 
+google_ad.line3 = "Language Questions. Register Now!"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CSiGLH8O2Uf6DJIy4sQbA9ICACOLHvtwDwv6Lymmq3N7NNBADIIT49QEoA1CJ0dDUAWCPA8gBAakC6gISuQ-kYD6oAwGqBH9P0JALnMEn2ajfCZMPIr_S4SH3lu-PJSBXV_3O3hEee6Gr4A8ahDt39QE6j2pL7DbqBDG3-4PuEiiFCkmo6YoI4veNYqD4tTJoV4rM0TboEbUtMH8Hwb23PGwfxOX5mC62pYDZ93bNj7rPYrNF2XnOSx7hYK5KTUZ1DE9Ln_ghgAf6o4cr&amp;num=3&amp;sig=AOD64_0p6t0qXdjtrz13gjjneGkq908IXA&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.asiacreditbank.kz/p/loans"; 
+google_ad.visible_url = "Asiacreditbank.kz/Кредиты"; 
+google_ad.line1 = "\x26#1050;\x26#1088;\x26#1077;\x26#1076;\x26#1080;\x26#1090;\x26#1099; \x26#1074; \x26#1050;\x26#1072;\x26#1079;\x26#1072;\x26#1093;\x26#1089;\x26#1090;\x26#1072;\x26#1085;\x26#1077;"; 
+google_ad.line2 = "\x26#1048;\x26#1097;\x26#1077;\x26#1090;\x26#1077; \x26#1074;\x26#1099;\x26#1075;\x26#1086;\x26#1076;\x26#1085;\x26#1099;\x26#1081; \x26#1082;\x26#1088;\x26#1077;\x26#1076;\x26#1080;\x26#1090;?"; 
+google_ad.line3 = "\x26#1042;\x26#1099;\x26#1073;\x26#1080;\x26#1088;\x26#1072;\x26#1081;\x26#1090;\x26#1077; \x26#1082;\x26#1088;\x26#1077;\x26#1076;\x26#1080;\x26#1090;\x26#1099; \x26#1074; \x26#1085;\x26#1072;\x26#1076;\x26#1077;\x26#1078;\x26#1085;\x26#1086;\x26#1084; \x26#1073;\x26#1072;\x26#1085;\x26#1082;\x26#1077;!"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.2020site.org/trees/elm.html%26gl%3DKZ%26hl%3Den%26client%3Dca-pub-3619764495662405%26ai0%3DCJ12gH8O2Uf6DJIy4sQbA9ICACMbhyt8D7r_p913AjbcBEAEghPj1ASgDUPL9ofL5_____wFgjwOgAZLI99sDyAEBqQIImZOh-uGFPqgDAaoEe0_Q4Hxk2D7ikG26gmgiv4v9I_WUrJU4MRwW4NsDqhZGo6WgQRzrDm5c2h3BdkvofP8Eabf72vIQKodJU7X4wUn_4sU5pu-1JDQdg82ScPQItIny4-2nkeWYQSvE5ZufLrafgsT3o8p6fTphs4EsajtIHvGVqapLgLYfbYgGAYAH1reIJA%26ai1%3DCCjMeH8O2Uf6DJIy4sQbA9ICACKahm-sBzq3WlVbAjbcBEAIghPj1ASgDUN6Wvc_6_____wFgjwOgAYK_tf0DyAEBqAMBqgR-T9DAdnjYPeKQbbqCaCK_i_0j9ZSslTgxHBbg2wOqFkajpaBBHOsOblzaHcF2S-h8_wRpt_va8hAqh0lTtfjBSf_ixTmm77UkNB2DzZJw9Ai0wfJ8yQsJ4Vz9wS9rdnLFWk9tMiGkP3m5z2J3dC96zksOBJatSk1CkerJD84aiAYBgAfmwMoC%26ai2%3DCSiGLH8O2Uf6DJIy4sQbA9ICACOLHvtwDwv6Lymmq3N7NNBADIIT49QEoA1CJ0dDUAWCPA8gBAakC6gISuQ-kYD6oAwGqBH9P0JALnMEn2ajfCZMPIr_S4SH3lu-PJSBXV_3O3hEee6Gr4A8ahDt39QE6j2pL7DbqBDG3-4PuEiiFCkmo6YoI4veNYqD4tTJoV4rM0TboEbUtMH8Hwb23PGwfxOX5mC62pYDZ93bNj7rPYrNF2XnOSx7hYK5KTUZ1DE9Ln_ghgAf6o4cr\x26usg\x3dAFQjCNF0t8yWCgAs7ukRiWzIuOMXN93PJw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=C8qHUnMK2UZLmEc2nsQaroICIBqXUmYQC1Yyj6x3AjbcBEAEghPj1ASgDUN6fsPf9_____wFgjwPIAQGoAwGqBIABT9CiQ4TdA4183ulWN2u9rpwckYri-acJov3wxtLXsakE6gayaHH02A6bVD2bFaR9EAbN4OE-0TPv-QDhAvDGujL6blZJlu397fLD7MJZTImMqLpdW4BBuYAWlJe41e0d-XrpIwvuU8snGzaDrNQ4ywqn-9EabXqkFX0_BVnMnKGAB5_Eqhc&amp;num=1&amp;sig=AOD64_3sn4U8v77Bg4f1KWjcgJQ_0e94rA&amp;client=ca-pub-3619764495662405&amp;adurl=http://sheffields.com/seed_genus_species_common/Quercus/_"; 
+google_ad.visible_url = "www.sheffields.com"; 
+google_ad.line1 = "Oak Tree Seed"; 
+google_ad.line2 = "Grow these Impressive Trees"; 
+google_ad.line3 = "Very Easy to Grow from Seed!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CPn2fnMK2UZLmEc2nsQaroICIBv6ujdkDrruG3VnAjbcBEAIghPj1ASgDUMWMy67______wFgjwPIAQGpAoaoo9tCO7Y-qAMBqgSCAU_QgmeD3QCNfN7pVjdrva6cHJGK4vmnCaL98MbS17GpBOoGsmhx9NgOm1Q9mxWkfRAGzeDhPtEz7_kA4QLwxroy-m5WSZbt_e3yw-zCWUyJjKi6XVuACbkcMQwo9TIW8hKsY8ngYL8m0fYzdq8QzcjOUvjB725q0RZ5XwOckSQHZG6AB8LiqAE&amp;num=2&amp;sig=AOD64_16Qe6VR9A3Teqy0x_1LtVBQ9OSYA&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.hublet.com"; 
+google_ad.visible_url = "www.hublet.com"; 
+google_ad.line1 = "French Oak Lumber"; 
+google_ad.line2 = "The European Specialist"; 
+google_ad.line3 = "27 mm Fix Width for flooring"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=Csv-FnMK2UZLmEc2nsQaroICIBpXBi78FzbDQvm_AjbcBEAMghPj1ASgDUOTFz4L7_____wFgjwOgAavkjdMDyAEBqQKGqKPbQju2PqgDAaoEgwFP0NJIgd0BjXze6VY3a72unByRiuL5pwmi_fDG0texqQTqBrJocfTYDptUPZsVpH0QBs3g4T7RM-_5AOEC8Ma6MvpuVkmW7f3t8sPswllMiYyoul1bgAm5HDEMS-wWGfISrGPJ4GC_JtH2M3avEM3IzlL4we9uatEWeV8DnJEkXHDX44gGAYAHvZvyLA&amp;num=3&amp;cid=5Ggime6GLeEyWevjpTYNrtOa&amp;sig=AOD64_3EWuo56kCF9lXAD80XQMeqvUBCRg&amp;client=ca-pub-3619764495662405&amp;adurl=http://pixel.everesttech.net/2724/c%3Fev_sid%3D3%26ev_cmpid%3D%26ev_ln%3Dikea%26ev_crx%3D29932490381%26ev_mt%3D%26ev_n%3Dd%26ev_ltx%3D%26ev_pl%3Dwww.2020site.org%26ev_pos%3Dnone%26url%3Dhttp%253A//www.lamoda.kz/shoes/women/%253Fsf%253D9%2526wt_ga05%253D5963108994_29932490381%2526wt_gk05%253DBroad_5963108994_ikea"; 
+google_ad.visible_url = "lamoda.kz"; 
+google_ad.line1 = "\x26#1052;\x26#1086;\x26#1076;\x26#1085;\x26#1072;\x26#1103; \x26#1054;\x26#1073;\x26#1091;\x26#1074;\x26#1100; \x26#1074; 3 \x26#1088;\x26#1072;\x26#1079;\x26#1072; \x26#1076;\x26#1077;\x26#1096;\x26#1077;\x26#1074;\x26#1083;\x26#1077;."; 
+google_ad.line2 = "\x26#1051;\x26#1080;\x26#1082;\x26#1074;\x26#1080;\x26#1076;\x26#1072;\x26#1094;\x26#1080;\x26#1103; \x26#1041;\x26#1088;\x26#1077;\x26#1085;\x26#1076;\x26#1086;\x26#1074;\x26#1086;\x26#1081; \x26#1054;\x26#1073;\x26#1091;\x26#1074;\x26#1080;. -70% -80%!"; 
+google_ad.line3 = "\x26#1041;\x26#1077;\x26#1089;\x26#1087;\x26#1083;\x26#1072;\x26#1090;\x26#1085;\x26#1072;\x26#1103; \x26#1076;\x26#1086;\x26#1089;\x26#1090;\x26#1072;\x26#1074;\x26#1082;\x26#1072; \x26#1087;\x26#1086; \x26#1050;\x26#1072;\x26#1079;\x26#1072;\x26#1093;\x26#1089;\x26#1090;\x26#1072;\x26#1085;\x26#1091;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.2020site.org/trees/oak-tree.html%26gl%3DKZ%26hl%3Den%26client%3Dca-pub-3619764495662405%26ai0%3DC8qHUnMK2UZLmEc2nsQaroICIBqXUmYQC1Yyj6x3AjbcBEAEghPj1ASgDUN6fsPf9_____wFgjwPIAQGoAwGqBIABT9CiQ4TdA4183ulWN2u9rpwckYri-acJov3wxtLXsakE6gayaHH02A6bVD2bFaR9EAbN4OE-0TPv-QDhAvDGujL6blZJlu397fLD7MJZTImMqLpdW4BBuYAWlJe41e0d-XrpIwvuU8snGzaDrNQ4ywqn-9EabXqkFX0_BVnMnKGAB5_Eqhc%26ai1%3DCPn2fnMK2UZLmEc2nsQaroICIBv6ujdkDrruG3VnAjbcBEAIghPj1ASgDUMWMy67______wFgjwPIAQGpAoaoo9tCO7Y-qAMBqgSCAU_QgmeD3QCNfN7pVjdrva6cHJGK4vmnCaL98MbS17GpBOoGsmhx9NgOm1Q9mxWkfRAGzeDhPtEz7_kA4QLwxroy-m5WSZbt_e3yw-zCWUyJjKi6XVuACbkcMQwo9TIW8hKsY8ngYL8m0fYzdq8QzcjOUvjB725q0RZ5XwOckSQHZG6AB8LiqAE%26ai2%3DCsv-FnMK2UZLmEc2nsQaroICIBpXBi78FzbDQvm_AjbcBEAMghPj1ASgDUOTFz4L7_____wFgjwOgAavkjdMDyAEBqQKGqKPbQju2PqgDAaoEgwFP0NJIgd0BjXze6VY3a72unByRiuL5pwmi_fDG0texqQTqBrJocfTYDptUPZsVpH0QBs3g4T7RM-_5AOEC8Ma6MvpuVkmW7f3t8sPswllMiYyoul1bgAm5HDEMS-wWGfISrGPJ4GC_JtH2M3avEM3IzlL4we9uatEWeV8DnJEkXHDX44gGAYAHvZvyLA\x26usg\x3dAFQjCNF54-BmuJRrhubyWnJpxrB_fFBCmw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

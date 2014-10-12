@@ -1,0 +1,29 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "image"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CEZpcLMW2UdDuK8LxsQa6rYHAA-_XqKwDl63B4VbEhIWeCxABIIT49QFQx9_wwP3_____AWCPA6ABuZy75QPIAQKoAwGqBIoBT9C6Wu5GtqqwOxgDEOEf2y8_D6Nhz1OtslmnyXmt9ckTjOXc32yJClJIBEEt1CuUrzYaSLOqpc41NpbQ7wEHY7FUcE-YPh09LKINmitRWYSDgtWtrIloMuRdP4gQOsfBcwPq-OEfgd6L0bl3SFz_CjNFA2NIUAo9RDvtTmzR4d4DGXUzn9kFfuYyiAYBoAYCgAev48Qa&amp;num=1&amp;cid=5GhQmDIGfWpVOHjmRSMyqxSQ&amp;sig=AOD64_14JcJe2Nj4MjigyZzGuFK3xy975w&amp;client=ca-pub-3619764495662405&amp;adurl=http://ru.forex-mmcis.com/indextop20.html%3Fref%3D41690"; 
+google_ad.visible_url = "ru.forex-mmcis.com"; 
+google_ad.image_url = "http://pagead2.googlesyndication.com/simgad/6787647240938333102";
+google_ad.image_width = "468";
+google_ad.image_height = "60";
+google_ad.image_alt_text = "";
+google_ads[0] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.2020site.org/trees/cherry.html%26gl%3DKZ%26hl%3Den%26client%3Dca-pub-3619764495662405%26ai0%3DCEZpcLMW2UdDuK8LxsQa6rYHAA-_XqKwDl63B4VbEhIWeCxABIIT49QFQx9_wwP3_____AWCPA6ABuZy75QPIAQKoAwGqBIoBT9C6Wu5GtqqwOxgDEOEf2y8_D6Nhz1OtslmnyXmt9ckTjOXc32yJClJIBEEt1CuUrzYaSLOqpc41NpbQ7wEHY7FUcE-YPh09LKINmitRWYSDgtWtrIloMuRdP4gQOsfBcwPq-OEfgd6L0bl3SFz_CjNFA2NIUAo9RDvtTmzR4d4DGXUzn9kFfuYyiAYBoAYCgAev48Qa\x26usg\x3dAFQjCNElo9duWH_y2-dbh9LJVPiDf0uTIA";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

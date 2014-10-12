@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+<h3 style="color:green">Maple tree</h3>
+<div style="float: right">
+<img src="images/maple.jpg" style="height:200px">
+</div>
+<p>
+</p>
+</body>
+</html>

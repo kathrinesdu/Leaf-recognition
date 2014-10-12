@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=CiAy5LMW2UYamDYPAsQbk4YGICcbu6IEBhKv-swrAjbcBEAEghPj1ASgDUJ_MwOYFYI8DyAEBqAMBqgSNAU_Qz086kOWaUUm17CwHJkNI1azymFTSZeFnebKI0NdgnVD7aHplPkoJzPTwKrrKGReg7DPgdicN8qpvYQ1_Skuons81V_Cura0xr1p6Fa9ZpqW9qHN3PRJoVLJ6U3u7MoDHKswRxCYOguPB2UwDGDSrYUpfe5MeymXjeyANzg525RXiEvb7eLT4DWKnaYAHgpezEQ&amp;num=1&amp;sig=AOD64_3bATbMpHUpYkm54qDXEENzBV-Kkw&amp;client=ca-pub-3619764495662405&amp;adurl=http://www.groundhoginc.com"; 
+google_ad.visible_url = "www.groundhoginc.com"; 
+google_ad.line1 = "Ground Hog, Inc."; 
+google_ad.line2 = "Building the best earth drills \x26amp;"; 
+google_ad.line3 = "trenchers for over 60 years!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CVwvXLMW2UYamDYPAsQbk4YGICZ7_7NQDrpev1UfAjbcBEAIghPj1ASgDULmgvRdgjwOgAaKB-uMDyAEBqQLqAhK5D6RgPqgDAaoEiwFP0L8h4In8oGn7Bv1LByYaVNeu8NtOz3SqJmSnVWvfXZ9euyZ8CgtToBfcsTa6zlMCoLQz4C87D_CoLHsQbgEKtYuHblHnrrvxfaRXbRWkDuC5pKmfvT5EyBQZX30euleBoy6oFfkiM4YlKvT09UvBoGGCqrhmHcp1FmjVDs6Kg2Lk4Rb2G37CAF6miAYBgAfG_oUc&amp;num=2&amp;cid=5GiJsT4hIOj3kYntoe9n2TIn&amp;sig=AOD64_216kIF4i8o2cG3uo9VSQ2XN94t5w&amp;client=ca-pub-3619764495662405&amp;adurl=http://browser.yandex.kz/%3Ffrom%3Dcont_ads"; 
+google_ad.visible_url = "browser.yandex.kz"; 
+google_ad.line1 = "\x26#1053;\x26#1086;\x26#1074;\x26#1099;\x26#1081; \x26#1071;\x26#1085;\x26#1076;\x26#1077;\x26#1082;\x26#1089;.\x26#1041;\x26#1088;\x26#1072;\x26#1091;\x26#1079;\x26#1077;\x26#1088;"; 
+google_ad.line2 = "\x26#1047;\x26#1072;\x26#1075;\x26#1088;\x26#1091;\x26#1078;\x26#1072;\x26#1077;\x26#1090;\x26#1089;\x26#1103; \x26#1089;\x26#1086; \x26#1089;\x26#1082;\x26#1086;\x26#1088;\x26#1086;\x26#1089;\x26#1090;\x26#1100;\x26#1102; \x26#1084;\x26#1086;\x26#1083;\x26#1085;\x26#1080;\x26#1080;."; 
+google_ad.line3 = "\x26#1057;\x26#1082;\x26#1072;\x26#1095;\x26#1072;\x26#1081;\x26#1090;\x26#1077; \x26#1087;\x26#1086;\x26#1089;\x26#1083;\x26#1077;\x26#1076;\x26#1085;\x26#1102;\x26#1102; \x26#1074;\x26#1077;\x26#1088;\x26#1089;\x26#1080;\x26#1102; \x26#1089;\x26#1077;\x26#1081;\x26#1095;\x26#1072;\x26#1089;!"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=C8rYELMW2UYamDYPAsQbk4YGICaKtja8DkvmX60zAjbcBEAMghPj1ASgDUIXMhbgCYI8DyAEBqAMBqgSNAU_Qz1EwkOeaUUm17CwHJkNI1azymFTSZeFnebKI0NdgnVD7aHplPkoJzPTwKrrKGReg7DPgdicN8qpvYQ1_Skuons81V_Cura0xr1p6Fa9ZpqW9qHN3PRJoVrFSU3u7MoDHKswRxCYOguPB2UwDGDSrYUpfe5MeymXjeyANzg525RXiEvb7eLT4TxKwf4AHqMSaCg&amp;num=3&amp;sig=AOD64_1yOBjrwMC2Ti9DEKJ3Y2I9MXS7ZA&amp;client=ca-pub-3619764495662405&amp;adurl=http://prostosad.kz/category/sadovodstvo.html"; 
+google_ad.visible_url = "prostosad.kz"; 
+google_ad.line1 = "\x26#1042;\x26#1089;\x26#1077; \x26#1076;\x26#1083;\x26#1103; \x26#1089;\x26#1072;\x26#1076;\x26#1072; \x26#1080; \x26#1086;\x26#1075;\x26#1086;\x26#1088;\x26#1086;\x26#1076;\x26#1072;"; 
+google_ad.line2 = "\x26#1055;\x26#1088;\x26#1080;\x26#1086;\x26#1073;\x26#1088;\x26#1077;\x26#1090;\x26#1072;\x26#1081;\x26#1090;\x26#1077; \x26#1089;\x26#1077;\x26#1084;\x26#1077;\x26#1085;\x26#1072;, \x26#1091;\x26#1076;\x26#1086;\x26#1073;\x26#1088;\x26#1077;\x26#1085;\x26#1080;\x26#1103; \x26#1080;"; 
+google_ad.line3 = "\x26#1080;\x26#1085;\x26#1074;\x26#1077;\x26#1085;\x26#1090;\x26#1072;\x26#1088;\x26#1100; \x26#1076;\x26#1083;\x26#1103; \x26#1042;\x26#1072;\x26#1096;\x26#1077;\x26#1075;\x26#1086; \x26#1089;\x26#1072;\x26#1076;\x26#1072; \x26#1080; \x26#1086;\x26#1075;\x26#1086;\x26#1088;\x26#1086;\x26#1076;\x26#1072;"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.2020site.org/trees/cherry.html%26gl%3DKZ%26hl%3Den%26client%3Dca-pub-3619764495662405%26ai0%3DCiAy5LMW2UYamDYPAsQbk4YGICcbu6IEBhKv-swrAjbcBEAEghPj1ASgDUJ_MwOYFYI8DyAEBqAMBqgSNAU_Qz086kOWaUUm17CwHJkNI1azymFTSZeFnebKI0NdgnVD7aHplPkoJzPTwKrrKGReg7DPgdicN8qpvYQ1_Skuons81V_Cura0xr1p6Fa9ZpqW9qHN3PRJoVLJ6U3u7MoDHKswRxCYOguPB2UwDGDSrYUpfe5MeymXjeyANzg525RXiEvb7eLT4DWKnaYAHgpezEQ%26ai1%3DCVwvXLMW2UYamDYPAsQbk4YGICZ7_7NQDrpev1UfAjbcBEAIghPj1ASgDULmgvRdgjwOgAaKB-uMDyAEBqQLqAhK5D6RgPqgDAaoEiwFP0L8h4In8oGn7Bv1LByYaVNeu8NtOz3SqJmSnVWvfXZ9euyZ8CgtToBfcsTa6zlMCoLQz4C87D_CoLHsQbgEKtYuHblHnrrvxfaRXbRWkDuC5pKmfvT5EyBQZX30euleBoy6oFfkiM4YlKvT09UvBoGGCqrhmHcp1FmjVDs6Kg2Lk4Rb2G37CAF6miAYBgAfG_oUc%26ai2%3DC8rYELMW2UYamDYPAsQbk4YGICaKtja8DkvmX60zAjbcBEAMghPj1ASgDUIXMhbgCYI8DyAEBqAMBqgSNAU_Qz1EwkOeaUUm17CwHJkNI1azymFTSZeFnebKI0NdgnVD7aHplPkoJzPTwKrrKGReg7DPgdicN8qpvYQ1_Skuons81V_Cura0xr1p6Fa9ZpqW9qHN3PRJoVrFSU3u7MoDHKswRxCYOguPB2UwDGDSrYUpfe5MeymXjeyANzg525RXiEvb7eLT4TxKwf4AHqMSaCg\x26usg\x3dAFQjCNGBMI_wViCFGvBoCuh6D1D46HxvXg";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

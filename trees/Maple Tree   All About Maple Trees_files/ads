@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=Cg3FoxDO4Ub31BIO3sQbJ54DYDqXUmYQCrZqQwB3AjbcBEAEghPj1ASgDUNuJoc8HYI8DyAEBqAMBqgSAAU_QAQ_0yoXZmFWGLA6NIgJR9nKmE_tjI3WPKqdyu1umTCXgPFrQCnPCkRfChusJKfHZ-04G-4HGXoaNAsCpryFPOEA274y16A0b3ykVnJ9UZUU326pphyyxRiUsmmBMGQh2CpX6kAK5Qt5_nIO1xIkdIF82oYMbLRYl4f5jP9gDgAefxKoX&amp;num=1&amp;sig=AOD64_0Vi2KKz6U-WESheMXjHF0Dt1EUVQ&amp;client=ca-pub-3619764495662405&amp;adurl=http://sheffields.com/seed_genus_species_common/Acer/palmatum"; 
+google_ad.visible_url = "www.sheffields.com"; 
+google_ad.line1 = "Japanese Maple Tree Seed"; 
+google_ad.line2 = "Many Varieties Available in Stock"; 
+google_ad.line3 = "Search For New Variations from Seed"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=L&amp;ai=Cp1cwxDO4Ub31BIO3sQbJ54DYDoDjk-sCuOja9l_AjbcBEAIghPj1ASgDUJ_D7cv5_____wFgjwPIAQGoAwGqBIABT9BhKvPKhtmYVYYsDo0iAlH2cqYT-2MjdY8qp3K7W6ZMJeA8WtAKc8KRF8KG6wkp8dn7Tgb7gcZeho0CwKmvIU84QDbvjLXoDRvfKRWcn1RlRTfbqkz3IrJGJSyaYEwZCHYKlfqQArlC3n-cg7XEiR0gXzahgxstFiXh_hoKpDiAB4CF_CI&amp;num=2&amp;sig=AOD64_00dXCC33sjcZvS9f4bWpIA-WM-Og&amp;client=ca-pub-3619764495662405&amp;adurl=http://sadovod-cs201879.satu.kz/"; 
+google_ad.visible_url = "sadovod-cs201879.satu.kz/"; 
+google_ad.line1 = "\x26#1054;\x26#1087;\x26#1088;\x26#1099;\x26#1089;\x26#1082;\x26#1080;\x26#1074;\x26#1072;\x26#1085;\x26#1080;\x26#1077; \x26#1076;\x26#1077;\x26#1088;\x26#1077;\x26#1074;\x26#1100;\x26#1077;\x26#1074;"; 
+google_ad.line2 = "\x26#1087;\x26#1086;\x26#1076;\x26#1088;\x26#1077;\x26#1079;\x26#1082;\x26#1072; \x26#1076;\x26#1077;\x26#1088;\x26#1077;\x26#1074;\x26#1100;\x26#1077;\x26#1074;, \x26#1087;\x26#1086;\x26#1089;\x26#1072;\x26#1076;\x26#1082;\x26#1072;"; 
+google_ad.line3 = "\x26#1089;\x26#1072;\x26#1078;\x26#1077;\x26#1085;\x26#1094;\x26#1077;\x26#1074;"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=ChSaRxDO4Ub31BIO3sQbJ54DYDvWesbkDpbHhslP22uu0OxADIIT49QEoA1C73Ye3-P____8BYI8DoAGr-eHtA8gBAakC6SZmNn85Mz6oAwGqBIcBT9BhLD7AnOKg5zU9aY0iW030cKRQ4X4yPs43sq8AU5tOK6ByXL8_amtKPoKa6w1j5NmjTgaincRchM4Y3bjkYFItCG3pm7X-UVnTOAmV1BJ5XDZ_KPZpdoKo7qNFRdfh552EeBd71LJf3pCZa3Y9fx4gXyaUdRgtFiERDaGCZhuSL68qyKFfiAYBgAe9hp4S&amp;num=3&amp;cid=5Ggkwj4sxoJHdDrDECt2FkFn&amp;sig=AOD64_2Gk4pDJqqDX2KTO62WaQrLWrClVg&amp;client=ca-pub-3619764495662405&amp;adurl=https://darabanth.hu/index.html%3F%26setlanguage%3Den"; 
+google_ad.visible_url = "www.darabanth.hu"; 
+google_ad.line1 = "Large online stamp aucion"; 
+google_ad.line2 = "Central Eastern Europe \x26amp; all world"; 
+google_ad.line3 = "Philately postcards numismatics"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.2020site.org/trees/maple.html%26gl%3DKZ%26hl%3Den%26client%3Dca-pub-3619764495662405%26ai0%3DCg3FoxDO4Ub31BIO3sQbJ54DYDqXUmYQCrZqQwB3AjbcBEAEghPj1ASgDUNuJoc8HYI8DyAEBqAMBqgSAAU_QAQ_0yoXZmFWGLA6NIgJR9nKmE_tjI3WPKqdyu1umTCXgPFrQCnPCkRfChusJKfHZ-04G-4HGXoaNAsCpryFPOEA274y16A0b3ykVnJ9UZUU326pphyyxRiUsmmBMGQh2CpX6kAK5Qt5_nIO1xIkdIF82oYMbLRYl4f5jP9gDgAefxKoX%26ai1%3DCp1cwxDO4Ub31BIO3sQbJ54DYDoDjk-sCuOja9l_AjbcBEAIghPj1ASgDUJ_D7cv5_____wFgjwPIAQGoAwGqBIABT9BhKvPKhtmYVYYsDo0iAlH2cqYT-2MjdY8qp3K7W6ZMJeA8WtAKc8KRF8KG6wkp8dn7Tgb7gcZeho0CwKmvIU84QDbvjLXoDRvfKRWcn1RlRTfbqkz3IrJGJSyaYEwZCHYKlfqQArlC3n-cg7XEiR0gXzahgxstFiXh_hoKpDiAB4CF_CI%26ai2%3DChSaRxDO4Ub31BIO3sQbJ54DYDvWesbkDpbHhslP22uu0OxADIIT49QEoA1C73Ye3-P____8BYI8DoAGr-eHtA8gBAakC6SZmNn85Mz6oAwGqBIcBT9BhLD7AnOKg5zU9aY0iW030cKRQ4X4yPs43sq8AU5tOK6ByXL8_amtKPoKa6w1j5NmjTgaincRchM4Y3bjkYFItCG3pm7X-UVnTOAmV1BJ5XDZ_KPZpdoKo7qNFRdfh552EeBd71LJf3pCZa3Y9fx4gXyaUdRgtFiERDaGCZhuSL68qyKFfiAYBgAe9hp4S\x26usg\x3dAFQjCNFtX-3eGB-XinhosWiC7jBlKiYARw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}
